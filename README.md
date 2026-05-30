@@ -1,5 +1,5 @@
 # ab_test_python
-# Python A/B Test Analysis
+# Python A/B Testing Analytics Project
 # Project Overview
 
 This project focuses on analyzing A/B testing results using Python statistical analysis and Tableau dashboard visualization.
