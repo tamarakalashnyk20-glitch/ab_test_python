@@ -4,7 +4,9 @@
 
 This project focuses on analyzing A/B testing results using Python statistical analysis and Tableau dashboard visualization.
 
-The analysis was performed in Google Colab using Python to calculate statistical significance for key conversion metrics and evaluate experiment performance across different user segments, devices, channels, and countries.
+Data for the analysis was extracted from Google BigQuery using SQL queries that combined session, event, order, and account data across different test groups, devices, countries, continents, and traffic channels.
+
+The analysis was performed in Google Colab using Python to calculate statistical significance for key conversion metrics and evaluate experiment performance across different user segments.
 
 The Tableau dashboard visualizes:
 
@@ -15,21 +17,22 @@ The Tableau dashboard visualizes:
 - device and traffic channel performance.
 
 Technologies Used
+- SQL
+- Google BigQuery
 - Python
 - Pandas
 - NumPy
 - SciPy
 - Statsmodels
-- bGoogle Colab
+- Google Colab
 - Tableau Public
-- Metrics Analyzed
 
 The project evaluates statistical significance for:
 
-add_payment_info / session
-add_shipping_info / session
-begin_checkout / session
-new_accounts / session
+- add_payment_info / session
+- add_shipping_info / session
+- begin_checkout / session
+- new_accounts / session
 
 The analysis includes:
 
